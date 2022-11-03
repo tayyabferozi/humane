@@ -10,7 +10,7 @@ import Step6 from "./Step6/Step6";
 import Step7 from "./Step7/Step7";
 
 const Signup = () => {
-  const [step, setStep] = useState(1);
+  const [step, setStep] = useState(2);
 
   const incStep = (e) => {
     e.preventDefault();
