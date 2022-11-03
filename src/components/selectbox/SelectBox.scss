@@ -53,6 +53,14 @@
   right: 0;
   top: 0;
   pointer-events: none;
+
+  img {
+    transition: 0.4s ease;
+
+    &.invert {
+      transform: rotateX(180deg);
+    }
+  }
 }
 
 .select-box--arrow-down {

@@ -45,15 +45,8 @@ const SelectBox = ({ value, onChange, items }) => {
           <img
             src={require("../../images/arrow-down.png")}
             alt="arrow"
-            className="arrow"
+            className={`arrow ${dropdownState.showItems ? "invert" : ""}`}
           />
-          {/* <span
-            className={`${
-              dropdownState.showItems
-                ? "select-box--arrow-up"
-                : "select-box--arrow-down"
-            }`}
-          /> */}
         </div>
 
         <div
